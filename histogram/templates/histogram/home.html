@@ -12,6 +12,7 @@
                 <th>Date</th>
                 <th>Time</th>
                 <th>Message</th>
+                <th>Logger</th>
             </tr>
             </thead>
             <tbody>
@@ -22,6 +23,7 @@
                     <td>
                         {{ message.message }}
                     </td>
+                    <td> {{message.logger}} </td>
                 </tr>
             {% endfor %}
             </tbody>
